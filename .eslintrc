@@ -1,0 +1,22 @@
+{
+	extends: "eslint:recommended",
+	parser: "babel-eslint",
+	env: {
+		node: true,
+		mocha: true,
+		browser: true,
+		es6: true,
+	},
+	rules: {
+		"comma-dangle": [2, "always-multiline"],
+    "no-undef": [2],
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/react-in-jsx-scope": 2,
+    "react/no-deprecated": 2,
+    "react/jsx-no-undef": 2,
+	},
+	plugins: ['react'],
+}
