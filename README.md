@@ -4,8 +4,8 @@ Creates a new plugin for using inline styles as decorators.
 ![Demo](docs/demo.gif)
 
 ## WAT
-- It all began with this tweet.
-- And then there was this issue.
+- It all began with [this tweet](https://twitter.com/galstar/status/754361959680794624).
+- And then there was [this issue](https://github.com/facebook/draft-js/issues/542).
 
 Currently, *There is no way of using nested decorators*, but using decorators is so fun.
 So the proposed solution is to handle Draft.js' inline styles as if they were controlled by decorators.
